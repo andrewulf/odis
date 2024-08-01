@@ -88,6 +88,7 @@ int main(int argc, char *argv[]) {
   socklen_t client_addrsize;
   if (argc != 3) {
     fprintf(stderr, "[Odis] Usage: ./server <port>\n");
+    printf("%s %s", argv[1], argv[2]);
     exit(1);
   }
 
